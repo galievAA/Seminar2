@@ -3,7 +3,11 @@
 // 782 -> 8
 // 918 -> 1
 
+System.Console.WriteLine("Введи трёхзначное число: ");
+int threeDigitNumber = Convert.ToInt32(Console.ReadLine());
+string Number = Convert.ToString(threeDigitNumber);
 
+Console.WriteLine("Вторая цифра этого числа -> "+ Number[1]);
 
 
 
